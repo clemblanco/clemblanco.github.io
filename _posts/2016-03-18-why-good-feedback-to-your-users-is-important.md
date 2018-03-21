@@ -1,9 +1,10 @@
 ---
-layout:   post
-title:    "Thoughts around QA and testing for mobile projects"
-date:     2016-03-18 15:07:32
-excerpt:  "Why close-to-production data during QA, poor connection testing and good UX feedback are important for a mobile project."
-comments: false
+layout:     post
+title:      "QA and testing for mobile projects"
+excerpt:    "Why close-to-production data during QA, poor connection testing and good UX feedback are important for a mobile project."
+date:       2016-03-18 15:07:32
+categories: [thoughts]
+comments:   false
 ---
 
 I've recently developed an iPad application for one of our clients and it's been quite a successful project so far.

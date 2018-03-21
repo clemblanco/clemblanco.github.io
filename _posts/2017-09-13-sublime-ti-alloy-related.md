@@ -1,8 +1,9 @@
 ---
-layout:   post
-title:    "Sublime Text 3 Package 'sublime-ti-alloy-related' officially released!"
-date:     2017-07-13 10:26:22
-comments: false
+layout:     post
+title:      "Sublime Text 3 Package 'sublime-ti-alloy-related' officially released!"
+date:       2017-07-13 10:26:22
+categories: [open source]
+comments:   false
 ---
 
 I've been working on a Sublime Text 3 plugin [sublime-ti-alloy-related](https://github.com/Cyber-Duck/sublime-ti-alloy-related)
