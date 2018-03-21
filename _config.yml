@@ -1,0 +1,67 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Clément Blanco
+email: mail@clem.io
+description: A simple and awesome blog theme powered by jekyll.
+url: https://clem.io
+keywords: ["Programming", "PHP", "Ruby"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/London
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Clément Blanco
+  avatar: logo.png
+  job: "Full Stack Web & Mobile Developer"
+  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  email: mail@clem.io
+  disqus-shortname:
+  twitter:
+  facebook:
+  google:
+    plus:
+    analytics: UA-116133590-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: clementblanco
+  stackoverflow: 840811/claymm
+  linkedin: clementblanco
+  xing:
+  instagram:
+  lastfm:
+  tumblr:
+  pinterest:
+  foursquare:
+  steam:
+  dribbble:
+  youtube:
+  soundcloud:
+  weibo:
+  flickr:
+  codepen:
+  telegram:
