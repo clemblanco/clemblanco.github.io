@@ -36,9 +36,8 @@ layout: default
 
     {% if post.excerpt %}
     <div class="post-description">
-      <p>
         {{ post.excerpt }}
-      </p>
+        <a href="{{ site.url }}{{ post.url }}" class="post-read-more" title="Read more...">Read more...</a>
     </div>
     {% endif %}
 

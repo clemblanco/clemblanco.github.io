@@ -150,7 +150,11 @@
 }
 
 .primary-bg-color {
-  background-color: $primary;
+  background-color: $background-color;
+}
+
+.secondary-bg-color {
+  background-color: $background-secondary-color;
 }
 
 .secondary-text-color {
