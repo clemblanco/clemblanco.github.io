@@ -25,7 +25,10 @@
     width: 100px;
     height: 100px;
     float: none;
-    margin-bottom: 40px;
+    margin-bottom: 0;
+    @include media-query($small-screen) {
+      margin-bottom: 40px;
+    }
   }
   .author_name {
     display: block;
