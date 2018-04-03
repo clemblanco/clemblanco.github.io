@@ -1,6 +1,4 @@
-# skills section data
-
 label: Ability
 id : cs
-aspects: Motivation, GitHub, Java, HTML/CSS, Docker, Python
-percentage: 100, 65, 70, 60, 60, 55
+aspects: Git, JavaScript, Docker, Vue/React, PHP, Laravel, ElasticSearch, DevOps, Titanium
+percentage: 80, 75, 50, 33, 80, 75, 65, 50, 90

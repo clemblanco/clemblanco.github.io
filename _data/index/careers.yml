@@ -1,16 +1,33 @@
-# careers section data
-# if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: Google
-  link: http://www.google.com/
-  date: July 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  job: Programming Internship
+- name: Cyber-Duck, London, UK
+  link: https://www.cyber-duck.co.uk
+  date: March 2017 - Until Now
+  job: Technical Lead
 
-- name: Facebook
-  link: http://www.facebook.com/
-  date: May 2014 - July 2017
-  job: Web Assistant
+- name: unBound, London, UK
+  link: https://www.cyber-duck.co.uk/insights/winning-the-barclays-hackathon-at-unbound-london
+  date: November 2015
+  job: Winner of the Barclays Hackathon
 
-- name: SAP
-  link: https://www.sap.com/
-  date: 2010 - 2014
-  job: Software Developer
+- name: Cyber-Duck, London, UK
+  link: https://www.cyber-duck.co.uk
+  date: March 2014 - March 2017
+  job: Senior Web & Mobile Developer
+
+- name: Novaway, Lyon, FR
+  link: https://www.novaway.fr
+  date: January 2011 - March 2014
+  job: Web & Mobile Developer
+
+- name: SUPINFO International University
+  link: https://www.supinfo.com
+  date: June 2012
+  job: M.Sc Graduate
+
+- name: SUPINFO International University
+  link: https://www.supinfo.com
+  date: September 2010
+  job: B.Sc Graduate
+
+- name: Cyber-Duck and SUPINFO in London
+  date: September 2009 - September 2010
+  job: Student and intern

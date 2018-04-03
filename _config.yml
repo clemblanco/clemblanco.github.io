@@ -7,7 +7,7 @@ title: Clément Blanco
 email: mail@clem.io
 description: A simple blog and resume around my technical life.
 url: https://clem.io
-keywords: ["Programming", "PHP", "Open Source", "Laravel", "JavaScript", "DevOps"]
+keywords: ["Programming", "PHP", "Open Source", "Laravel", "JavaScript", "Appcelerator Titanium", "DevOps"]
 
 #
 ###################################
@@ -36,7 +36,10 @@ owner:
   name: Clément Blanco
   avatar: logo.png
   job: "Full Stack Web & Mobile Developer"
-  bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex."
+  bio: >
+    Software developer handcrafting efficient applications, for the web and mobile, using best practices and innovative technologies.
+    I strive for maintainable products with an interest for devops while spreading open source love.
+    Currently Technical Lead at Cyber-Duck Ltd in London, UK.
   email: mail@clem.io
   disqus-shortname:
   twitter:
