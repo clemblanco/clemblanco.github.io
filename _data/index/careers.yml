@@ -11,7 +11,7 @@
 - name: Laravel
   link: /articles/2015-06/officially-a-laravel-contributor
   date: June 2015
-  job: 🎉 Officially a contributor
+  job: Officially a contributor
 
 - name: Cyber-Duck, London, UK
   link: https://www.cyber-duck.co.uk
@@ -20,13 +20,18 @@
 
 - name: Novaway, Lyon, FR
   link: https://www.novaway.fr
-  date: January 2011 - March 2014
+  date: January 2012 - March 2014
   job: Web & Mobile Developer
 
 - name: SUPINFO International University
   link: https://www.supinfo.com
   date: June 2012
   job: M.Sc Graduate
+
+- name: Novaway, Lyon, FR
+  link: https://www.novaway.fr
+  date: January 2011 - January 2012
+  job: Web Developer Intern
 
 - name: SUPINFO International University
   link: https://www.supinfo.com
@@ -35,4 +40,4 @@
 
 - name: Cyber-Duck and SUPINFO in London
   date: September 2009 - September 2010
-  job: Student and intern
+  job: Student and Web Developer Intern

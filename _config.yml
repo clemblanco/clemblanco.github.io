@@ -7,7 +7,7 @@ title: Clément Blanco
 email: mail@clem.io
 description: A simple blog and resume around my technical life.
 url: https://clem.io
-keywords: ["Programming", "PHP", "Open Source", "Laravel", "JavaScript", "Appcelerator Titanium", "DevOps"]
+keywords: ["Programming", "PHP", "Open Source", "Laravel", "JavaScript", "Appcelerator Titanium"]
 
 #
 ###################################
@@ -38,7 +38,7 @@ owner:
   job: "Full Stack Web & Mobile Developer"
   email: mail@clem.io
   disqus-shortname:
-  twitter:
+  twitter: claymm
   facebook:
   google:
     plus:
