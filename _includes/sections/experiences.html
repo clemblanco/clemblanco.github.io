@@ -8,13 +8,13 @@
             <h3>{{ experience.subtitle }}</h3>
             <p><em>{{ experience.description }}</em></p>
             {% if experience.website %}
-                <a href="{{ experience.website }}"><i class="fa fa-fw fa-home"></i>Homepage</a>
+                <a href="{{ experience.website }}" target="_blank" rel="nofollow"><i class="fa fa-fw fa-home"></i>Homepage</a>
             {% endif %}
             {% if experience.github %}
-                <a href="{{ experience.github }}"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                <a href="{{ experience.github }}" target="_blank" rel="nofollow"><i class="fa fa-fw fa-github"></i>GitHub</a>
             {% endif %}
             {% if experience.link %}
-                <a href="{{ experience.link }}"><i class="fa fa-fw fa-link"></i>{% if experience.link-title %}{{ experience.link-title }}{% else %}Read more{% endif %}</a>
+                <a href="{{ experience.link }}" target="_blank" rel="nofollow"><i class="fa fa-fw fa-link"></i>{% if experience.link-title %}{{ experience.link-title }}{% else %}Read more{% endif %}</a>
             {% endif %}
         </div>
     </div>

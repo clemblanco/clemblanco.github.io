@@ -6,13 +6,13 @@
         <div class="col">
             <strong>{{ project.title }}</strong>
             {% if project.website %}
-                <a href="{{ project.website }}"><i class="fa fa-fw fa-home"></i>Homepage</a>
+                <a href="{{ project.website }}" target="_blank" rel="nofollow"><i class="fa fa-fw fa-home"></i>Homepage</a>
             {% endif %}
             {% if project.github %}
-                <a href="{{ project.github }}"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                <a href="{{ project.github }}" target="_blank" rel="nofollow"><i class="fa fa-fw fa-github"></i>GitHub</a>
             {% endif %}
             {% if project.link %}
-                <a href="{{ project.link }}"><i class="fa fa-fw fa-link"></i>{{ project.link-title or project.title }}</a>
+                <a href="{{ project.link }}" target="_blank" rel="nofollow"><i class="fa fa-fw fa-link"></i>{{ project.link-title or project.title }}</a>
             {% endif %}
             <div><em>{{ project.description }}</em></div>
         </div>
@@ -25,6 +25,6 @@
 {% endfor %}
 <div class="row">
     <div class="col">
-        <p>You can find other examples of my work, especially open source contributions on my <a href="https://github.com/clementblanco" target="_blank">github</a> profile.</p>
+        <p>You can find other examples of my work, especially open source contributions on my <a href="https://github.com/clementblanco" target="_blank" rel="nofollow">github</a> profile.</p>
     </div>
 </div>
