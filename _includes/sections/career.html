@@ -7,7 +7,7 @@
             <div class="archive-title">
                 <div class="archive-year">
                     <strong>{{ career.date }}</strong><br />
-                    {{ career.job }} {% unless career.external %}@{% endunless %} {% if career.link %}<a href="{{ career.link }}" target="_blank">{% endif %}{{ career.name }}{% if career.link %}</a>{% endif %}
+                    {{ career.job }} {% unless career.external %}@{% endunless %} {% if career.link %}<a href="{{ career.link }}" target="_blank" rel="nofollow">{% endif %}{{ career.name }}{% if career.link %}</a>{% endif %}
                 </div>
             </div>
         {% endfor %}
