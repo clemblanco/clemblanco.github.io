@@ -3,6 +3,23 @@
   date: March 2017 - Until Now
   job: Technical Lead
 
+- name: <i class="fa fa-link"></i> Instagram
+  link: https://www.instagram.com/p/BdM_LwanZM3
+  date: December 2017
+  job: Ran 365+ km in 365 days for 2017
+  external: true
+
+- name: <i class="fa fa-link"></i> Instagram
+  link: https://www.instagram.com/p/BW5vAd6B5Lu
+  date: July 2017
+  job: Cycled from Borehamwood to Brighton on a rainy Sunday
+  external: true
+
+- name: Hackney Half
+  link: https://www.instagram.com/p/BFJdgiBw3k6
+  date: May 2016
+  job: Ran a half marathon for the first time
+
 - name: unBound, London, UK
   link: https://www.cyber-duck.co.uk/insights/winning-the-barclays-hackathon-at-unbound-london
   date: November 2015
@@ -38,6 +55,6 @@
   date: September 2010
   job: B.Sc Graduate
 
-- name: Cyber-Duck and SUPINFO in London
+- name: SUPINFO International University and Cyber-Duck Ltd in London, UK
   date: September 2009 - September 2010
   job: Student and Web Developer Intern
