@@ -1,3 +1,4 @@
+{% comment %}
 <script src="{{ site.url }}/js/chart-2.6.0.min.js"></script>
 <h1>
     <span data-i18n="skills.my_skills">Skills</span>
@@ -33,14 +34,25 @@
         }
     });
 </script>
+{% endcomment %}
+
+<h1>
+    <span data-i18n="skills.my_skills">Skills & Technologies</span>
+</h1>
 <div class="row">
     <div class="col">
-        <br /><br />
-        <div>
-            <strong>Technologies:</strong>
+        <h3 class="primary-text-color">Core</h3>
+        <div>{{ site.data.index.skills.core | markdownify }}</div>
+        <div class="wrap-collabsible">
+            <input id="collapsible" class="toggle" type="checkbox">
+            <label for="collapsible" class="lbl-toggle primary-text-color">Extended</label>
+            <div class="collapsible-content">
+                <div class="content-inner">
+                    {{ site.data.index.skills.extended | markdownify }}
+                </div>
+            </div>
         </div>
-        <p>
-            PHP 4+, Laravel 4.2+, Symfony 2, Magento 1, Magento 2, Drupal 7, Silverstripe 3+, OOP, MVC, MVVM, Git, Javascript, Appcelerator Titanium + Alloy MVC, Push Notifications, Node.js, Grunt, Gulp, Backbone.js, PHPUnit, Selenium, MySql, SQLite, Elasticsearch, Redis, Docker, Rackspace Cloud, AWS, Docker Compose, Vagrant, LAMP, Deployer and more...
-        </p>
     </div>
 </div>
+
+<hr/>

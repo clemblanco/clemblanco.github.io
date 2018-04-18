@@ -2,3 +2,63 @@ label: Ability
 id : cs
 aspects: Git, JavaScript, Docker, Redis, ElasticSearch, PHP, Laravel, Vue / React, Node.js, DevOps, Web APIs, Appc Titanium
 percentage: 80, 75, 60, 65, 65, 80, 85, 40, 55, 60, 78, 90
+core: >
+  - OOP
+
+  - PHP
+
+  - Javascript
+
+  - Laravel
+
+  - Vue.js
+
+  - Appcelerator Titanium + Alloy MVC
+
+  - Git
+extended: >
+  - AWS
+
+  - Backbone.js
+
+  - deployphp/deployer
+
+  - Docker
+
+  - Drupal 7
+
+  - Elasticsearch
+
+  - Grunt / Gulp / Webpack
+
+  - LAMP
+
+  - MVC
+
+  - MVVM
+
+  - Magento 1, Magento 2
+
+  - MySQL
+
+  - Node.js
+
+  - PHPUnit
+
+  - Push Notifications
+
+  - Rackspace Cloud
+
+  - Redis
+
+  - SQLite
+
+  - Selenium
+
+  - Silverstripe 3+
+
+  - Symfony 2
+
+  - Vagrant
+
+  - Web APIs

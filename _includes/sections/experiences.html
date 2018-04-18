@@ -4,9 +4,9 @@
 {% for experience in site.data.index.experiences %}
     <div class="row">
         <div class="col">
-            <h2>{{ experience.title }}</h2>
-            <h3>{{ experience.subtitle }}</h3>
-            <p><em>{{ experience.description }}</em></p>
+            <h2 class="tertiary-text-color">{{ experience.title }}</h2>
+            <strong class="secondary-text-color"><em>{{ experience.subtitle }}</em></strong>
+            &nbsp;
             {% if experience.website %}
                 <a href="{{ experience.website }}" target="_blank" rel="nofollow"><i class="fa fa-fw fa-home"></i>Homepage</a>
             {% endif %}
@@ -16,6 +16,7 @@
             {% if experience.link %}
                 <a href="{{ experience.link }}" target="_blank" rel="nofollow"><i class="fa fa-fw fa-link"></i>{% if experience.link-title %}{{ experience.link-title }}{% else %}Read more{% endif %}</a>
             {% endif %}
+            <p>{{ experience.description | markdownify }}</p>
         </div>
     </div>
 {% endfor %}
