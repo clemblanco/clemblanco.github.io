@@ -3,29 +3,28 @@ id : cs
 aspects: Git, JavaScript, Docker, Redis, ElasticSearch, PHP, Laravel, Vue / React, Node.js, DevOps, Web APIs, Appc Titanium
 percentage: 80, 75, 60, 65, 65, 80, 85, 40, 55, 60, 78, 90
 core: >
-  - OOP
-
   - PHP
 
   - Javascript
 
-  - Laravel
+  - Git
 
-  - Vue.js
+  - Laravel
 
   - Appcelerator Titanium + Alloy MVC
 
-  - Git
+  - Vue.js
+  
 extended: >
   - AWS
 
   - Backbone.js
 
+  - CI/CD Pipelines
+
   - deployphp/deployer
 
   - Docker
-
-  - Drupal 7
 
   - Elasticsearch
 
@@ -36,8 +35,6 @@ extended: >
   - MVC
 
   - MVVM
-
-  - Magento 1, Magento 2
 
   - MySQL
 
@@ -64,3 +61,15 @@ extended: >
   - Vagrant
 
   - Web APIs
+
+skills: >
+  - OOP
+
+  - Code Review
+
+  - Scoping
+
+  - TDD
+
+  - DevOps
+  

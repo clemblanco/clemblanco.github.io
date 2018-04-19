@@ -1,8 +1,3 @@
-- name: Cyber-Duck, London, UK
-  link: https://www.cyber-duck.co.uk
-  date: March 2017 - Until Now
-  job: Technical Lead
-
 - name: <i class="fa fa-link"></i> Instagram
   link: https://www.instagram.com/p/BdM_LwanZM3
   date: December 2017
@@ -12,8 +7,13 @@
 - name: <i class="fa fa-link"></i> Instagram
   link: https://www.instagram.com/p/BW5vAd6B5Lu
   date: July 2017
-  job: Cycled from Hertfordshire to Brighton on a rainy Sunday
+  job: 🌧 Cycled from Hertfordshire to Brighton on a rainy Sunday
   external: true
+
+- name: Cyber-Duck, London, UK
+  link: https://www.cyber-duck.co.uk
+  date: March 2017 - Until Now
+  job: Technical Lead
 
 - name: Hackney Half
   link: https://www.instagram.com/p/BFJdgiBw3k6
