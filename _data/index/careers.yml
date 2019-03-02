@@ -1,22 +1,33 @@
 - name: <i class="fa fa-link"></i> Instagram
-  link: https://www.instagram.com/p/BdM_LwanZM3
+  link: https://www.instagram.com/p/BtluApMF_C6_CsAtncwnQg_eqLfgka-j2rShiA0
+  date: February 2019
+  job: 🍼 Promoted Chief Nappies Officer
+  external: true
+
+- name: fuseAware, London, UK
+  link: https://www.fuseaware.com
+  date: November 2017 - present
+  job: Software Engineer - Full Stack Developer
+
+- name: <i class="fa fa-link"></i> Instagram
+  link: https://www.instagram.com/p/BdM_LwanZM33SRYJswoRkuXLWg7a-QHTVZSSdU0
   date: December 2017
   job: Ran 365+ km in 365 days for 2017
   external: true
 
 - name: <i class="fa fa-link"></i> Instagram
-  link: https://www.instagram.com/p/BW5vAd6B5Lu
+  link: https://www.instagram.com/p/BW5vAd6B5Lumf-ZJQmMbX3qoLTxLG1VBZVL54E0
   date: July 2017
   job: 🌧 Cycled from Hertfordshire to Brighton on a rainy Sunday
   external: true
 
 - name: Cyber-Duck, London, UK
   link: https://www.cyber-duck.co.uk
-  date: March 2017
-  job: Promoted to Technical Lead
+  date: March 2017 - October 2018
+  job: Technical Lead
 
 - name: Hackney Half
-  link: https://www.instagram.com/p/BFJdgiBw3k6
+  link: https://www.instagram.com/p/BFJdgiBw3k67WmeikNkyvPOh1MPSNJBsY5knKk0
   date: May 2016
   job: Ran a half marathon for the first time
 
