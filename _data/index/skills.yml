@@ -11,9 +11,11 @@ core: >
 
   - Laravel
 
-  - Appcelerator Titanium + Alloy MVC
+  - React
 
-  - Vue.js
+  - React Native
+
+  - Vue
   
 extended: >
   - AWS
@@ -21,6 +23,10 @@ extended: >
   - Backbone.js
 
   - CI/CD Pipelines
+  
+  - Chef
+
+  - NodeJS Lambda - Serverless
 
   - deployphp/deployer
 
@@ -38,13 +44,17 @@ extended: >
 
   - MySQL
 
-  - Node.js
+  - NodeJS
 
   - PHPUnit
 
   - Push Notifications
 
   - Progressive Web Apps
+
+  - Queues
+  
+  - Pub/Sub
 
   - Rackspace Cloud
 
@@ -60,7 +70,7 @@ extended: >
 
   - Vagrant
 
-  - Web APIs
+  - Web REST APIs
 
 skills: >
   - OOP
