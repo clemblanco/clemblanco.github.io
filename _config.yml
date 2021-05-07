@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Clément Blanco
+title: Clem Blanco
 email: mail@clem.io
 description: Ever learning coder, Tech Lead at Pod Point, Laravel lover, open source believer, curious about anything, worries about the environment and father newbie.
 url: https://clem.io
@@ -36,9 +36,9 @@ sass:
 ####################################
 #
 owner:
-  name: Clément Blanco
+  name: Clem Blanco
   avatar: logo.png
-  job: "{{ Tech Lead & Software Engineer }}"
+  job: "Software Engineer"
   email: mail@clem.io
   disqus-shortname:
   twitter: clemblanco
