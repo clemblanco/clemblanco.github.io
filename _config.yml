@@ -5,9 +5,9 @@
 #
 title: Clément Blanco
 email: mail@clem.io
-description: Ever learning coder, developer at fuseAware, Laravel lover, open source believer, curious about anything, worries about the environment and father newbie.
+description: Ever learning coder, Tech Lead at Pod Point, Laravel lover, open source believer, curious about anything, worries about the environment and father newbie.
 url: https://clem.io
-keywords: ["Programming", "PHP", "Open Source", "Laravel", "JavaScript", "Appcelerator Titanium"]
+keywords: ["Programming", "PHP", "Open Source", "Laravel", "JavaScript", "React", "React Native"]
 
 #
 ###################################
@@ -38,7 +38,7 @@ sass:
 owner:
   name: Clément Blanco
   avatar: logo.png
-  job: "Full Stack Web & Mobile Developer"
+  job: "Software Engineer"
   email: mail@clem.io
   disqus-shortname:
   twitter: clemblanco
