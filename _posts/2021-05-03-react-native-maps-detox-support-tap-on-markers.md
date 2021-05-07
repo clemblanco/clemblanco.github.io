@@ -25,6 +25,7 @@ When first starting to cover our map with tests, it all went pretty smoothly, we
 However anything to do with markers on the map started to be a bit of an issue, it's all explained [here](https://github.com/react-native-maps/react-native-maps/issues/3632#issuecomment-834132429):
 
 > Calling `.tap()` on `<AIRGoogleMapMarker>` element doesn't tap at the correct x/y coordinate on the screen.
+>
 > It's always ending up tapping at the top-left corner of the MapView, even though my marker is aligned at the centre of the MapView.
 
 ## The Workaround
