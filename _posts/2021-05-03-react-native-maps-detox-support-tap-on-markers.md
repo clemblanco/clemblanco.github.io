@@ -16,7 +16,7 @@ We started to use Detox from Wix in order to do so. Detox slowly became the indu
 
 Detox is pretty cool, [check it out](https://github.com/wix/Detox) if you're into React Native.
 
-## The Show Stopper
+### The Show Stopper
 
 Our application relies quite heavily on Google Maps components provided by [`react-native-maps`](https://github.com/react-native-maps/react-native-maps).
 
@@ -28,13 +28,13 @@ However anything to do with markers on the map started to be a bit of an issue, 
 >
 > It's always ending up tapping at the top-left corner of the MapView, even though my marker is aligned at the centre of the MapView.
 
-## The Workaround
+### The Workaround
 
 While that issue on GitHub became stale and we didn't get any reply from the maintainers, we needed to be able to proceed.
 
 We started looking into it and managed to find a ~hacky~ workaround which was adding a little bit of overhead on our test suite but nothing we couldn't handle.
 
-### Step 1: The Marker
+#### Step 1: The Marker
 
 So to make things easier, we are going to create a component to wrap the Marker component provided by `react-native-maps`.
 
@@ -88,7 +88,7 @@ export default Marker;
 
 So what we end up here is an invisible `<Text/>` component on top of the Marker which will hold the `x` and `y` coordinates for us.
 
-## The x/y coordinates
+#### Step 2: The x/y coordinates
 
 In order to find out what are these coordinates for each Marker, you'll have to use `pointForCoordinate()` from `react-native-maps`.
 
@@ -122,7 +122,7 @@ render() {
 
 Obviously if you have multiple markers or if these can change following a search or user interactions, you'd need to make sure you update the point x/y coordinates, but you get the gist.
 
-## Tap the Marker from Detox
+#### Step 3: Tap the Marker from Detox
 
 There is a bit of a ~hacky~ way to read `<Text/>` literal values from a Detox point of view. It's only supported for iOS but this is how you can do it for both.
 
@@ -181,7 +181,7 @@ async tapMarker() {
 }
 ```
 
-## Conclusion
+### Conclusion
 
 This is obviously a bit hacky and we would ideally prefer to to have this supported natively by `react-native-maps` and `detox` themselves but as hacky as this may look, it does actually work pretty well and never failed us once implemented.
 
