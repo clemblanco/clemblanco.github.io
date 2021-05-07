@@ -38,7 +38,7 @@ sass:
 owner:
   name: Clément Blanco
   avatar: logo.png
-  job: "Software Engineer"
+  job: "{{ Tech Lead & Software Engineer }}"
   email: mail@clem.io
   disqus-shortname:
   twitter: clemblanco
