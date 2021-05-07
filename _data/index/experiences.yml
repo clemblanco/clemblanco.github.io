@@ -1,11 +1,11 @@
-- title: » Software Engineer - Tech Lead at Pod Point
+- title: » Software Engineer at Pod Point
   subtitle: April 2019 - present
   description: >
     - From Senior to Tech Lead
   link: https://pod-point.com
   link-title: pod-point.com
 
-- title: » Software Engineer - Full Stack Developer at fuseAware
+- title: » Software Engineer at fuseAware (Startup)
   subtitle: November 2018 - present
   description: >
     - Responsible for the scoping, refactoring and ongoing development of the fuseAware back-end application using Laravel, VueJS and TDD, in an Agile environment
@@ -16,9 +16,17 @@
   link: https://www.fuseaware.com
   link-title: fuseaware.com
 
-- title: » Technical Lead at Cyber-Duck
-  subtitle: March 2017 - October 2018
+- title: » Web & Mobile Developer at Cyber-Duck (Digital Agency)
+  subtitle: March 2014 - October 2018
   description: >
+    - From Junior to Tech Lead
+    
+    - Progressing from junior to senior, taking responsibility for retainer projects and project management
+
+    - Developing applications in object oriented PHP frameworks like CodeIgniter, Laravel, and Silverstripe
+
+    - Working with other technologies like Appcelerator Titanium and Node.js, especially for R&D projects like <a href="https://www.uxcompanion.com/" target="_blank" rel="nofollow">UX Companion</a>, a glossary of user experience terminology downloaded more than 50,000 times
+
     - Working at every technical level of a project, from supervision to implementation, working closely with the project manager, our DevOps team, and the developers
 
     - Responsible for overseeing the expertise of the tech department by establishing standards, and streamlining processes and toolchains
@@ -29,18 +37,7 @@
   link: https://www.cyber-duck.co.uk
   link-title: cyber-duck.co.uk
 
-- title: » Senior Web & Mobile Developer at Cyber-Duck
-  subtitle: March 2014 - March 2017
-  description: >
-    - Progressing from junior to senior, taking responsibility for retainer projects and project management
-
-    - Developing applications in object oriented PHP frameworks like CodeIgniter, Laravel, and Silverstripe
-
-    - Working with other technologies like Appcelerator Titanium and Node.js, especially for R&D projects like <a href="https://www.uxcompanion.com/" target="_blank" rel="nofollow">UX Companion</a>, a glossary of user experience terminology downloaded more than 50,000 times
-  link: https://www.cyber-duck.co.uk
-  link-title: cyber-duck.co.uk
-
-- title: » Web & Mobile Developer at Novaway
+- title: » Web & Mobile Developer at Novaway (Digital Agency)
   subtitle: January 2011 - March 2014
   description: >
     - Transitioned to a full time web developer after a one year training contract while finishing my M.Sc thesis on modern web development and responsive web design
