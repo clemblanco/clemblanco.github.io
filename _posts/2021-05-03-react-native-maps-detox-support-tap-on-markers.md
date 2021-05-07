@@ -10,6 +10,8 @@ Okay so here is the deal, at Pod Point we are slowly moving towards covering mos
 
 We already had so far unit tests for each individual components and classes using jest but we wanted to increase our confidence even more as our mobile application is key to a lot of users using our network of charging infrastructures.
 
+<!--more-->
+
 We started to use Detox from Wix in order to do so. Detox slowly became the industry standard when talking about E2E testing with React Native. So far, the only potential option we'd have looked into was appium but our experience wasn't so great with it.
 
 Detox is pretty cool, check it out if you're into React Native.
