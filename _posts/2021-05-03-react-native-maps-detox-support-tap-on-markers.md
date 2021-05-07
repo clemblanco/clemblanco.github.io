@@ -3,22 +3,10 @@ layout:     post
 title:      "react-native-maps - Detox: Support tap() on Map Markers"
 date:       2021-05-03 15:07:32
 categories: [open source]
-comments:   true
+comments:   false
 ---
 
-Okay so here is the deal, at Pod Point we are slowly moving towards covering most of our mobile application coded using React Native with end-to-end (E2E) tests.
-
-We already had so far unit tests for each individual components and classes using [jest](https://jestjs.io) but we wanted to increase our confidence even more as our mobile application is key to a lot of users using our network of charging infrastructures.
-
-<!--more-->
-
-We started to use Detox from Wix in order to do so. Detox slowly became the industry standard when talking about E2E testing with React Native. So far, the only potential option we'd have looked into was appium but our experience wasn't so great with it.
-
-Detox is pretty cool, [check it out](https://github.com/wix/Detox) if you're into React Native.
-
-### # The Show Stopper
-
-Our application relies quite heavily on Google Maps components provided by [`react-native-maps`](https://github.com/react-native-maps/react-native-maps).
+Our React Native application relies quite heavily on Google Maps components provided by [`react-native-maps`](https://github.com/react-native-maps/react-native-maps).
 
 When first starting to cover our map with tests, it all went pretty smoothly, we could make sure the map was visible, great.
 
@@ -27,6 +15,18 @@ However anything to do with markers on the map started to be a bit of an issue, 
 > Calling `.tap()` on `<AIRGoogleMapMarker>` element doesn't tap at the correct x/y coordinate on the screen.
 >
 > It's always ending up tapping at the top-left corner of the MapView, even though my marker is aligned at the centre of the MapView.
+
+<!--more-->
+
+### # The Tech Stack
+
+Okay so here is the deal, at Pod Point we are slowly moving towards covering most of our mobile application coded using React Native with end-to-end (E2E) tests.
+
+We already had so far unit tests for each individual components and classes using [jest](https://jestjs.io) but we wanted to increase our confidence even more as our mobile application is key to a lot of users using our network of charging infrastructures.
+
+We started to use Detox from Wix in order to do so. Detox slowly became the industry standard when talking about E2E testing with React Native. So far, the only potential option we'd have looked into was appium but our experience wasn't so great with it.
+
+Detox is pretty cool, [check it out](https://github.com/wix/Detox) if you're into React Native.
 
 ### # The Workaround
 
