@@ -188,3 +188,5 @@ This is obviously a bit hacky and we would ideally prefer to to have this suppor
 I simplified this a lot here but once you have this working, you will need to make sure `x` and `y` coordinates are always up to date if you can interact with the map. If let's say you can zoom in and drag the map around (as in, it's not a static map) you will need to make sure you leverage your state management to keep these coordinates in sync for each individual marker.
 
 This is also worth noting that this also works with Clustered Markers too, we use [`react-native-maps-super-cluster`](https://github.com/novalabio/react-native-maps-super-cluster) ourselves.
+
+In terms of the overhead, we only render these hidden `<Text/>` components if an environment variable says that we are running in a `testing` environment. Therefore, this will not impact real user's performances. When you look at it, yes there is a slight overhead of rendering an additional `<Text/>` for each Marker and also updating/syncing these everytime the main `<MapView>` re-renders but we can live with that for now.
