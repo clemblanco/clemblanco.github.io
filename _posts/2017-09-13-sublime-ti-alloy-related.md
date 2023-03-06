@@ -21,8 +21,7 @@ You can read more about this in [this old Quora post](https://www.quora.com/How-
 where I go through a bit of explanation around that kind of technology.
 
 To give you a little more background, I wanted to replicate the functionality of
-[a plugin I was using on Atom](https://github.com/chrisgedrim/ti-alloy-related-plus) which gives the user the ability to directly open 3 types of files within
-an Appcelerator Titanium project using the Alloy MVC framework using key bindings (or application menu).
+[a plugin I was using on Atom](https://github.com/chrisgedrim/ti-alloy-related-plus) which gives the user the ability to directly open 3 types of files within an Appcelerator Titanium project using the Alloy MVC framework using key bindings (or application menu).
 
 The folder structure of an Alloy project is always the same regarding those files and using regular
 expression you can pretty easily work out where to look for. Considering this, it was just a matter of
